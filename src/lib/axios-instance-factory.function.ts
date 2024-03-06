@@ -1,5 +1,6 @@
 
-import axios, { AxiosRequestConfig } from 'axios';
+import { AxiosRequestConfig } from 'axios';
+import axios from 'axios';
 import { defaultAxiosConfig } from './default-axios-config.constant';
 import { THeaderSetterMap } from './header-setting-map.type';
 import { TErrorHandlerMap } from './error-handler-map.type';

@@ -1,6 +1,6 @@
 {
         "$schema": "https://json.schemastore.org/tsconfig",
-        "extends": "./node_modules/@onivoro/cli/src/assets/tsconfig.16.json",
+        "extends": "./node_modules/@onivoro/cli/src/assets/tsconfig.18.json",
         "include": ["src/**/*.ts"],
           "exclude": [
             "node_modules",
@@ -12,6 +12,10 @@
         "compilerOptions": {
           "declaration": true,
           "strict": false,
-          "esModuleInterop": false
+          "esModuleInterop": false,
+          "paths": {
+            "axios": ["./node_modules/axios/index.js", "./node_modules/axios/index.d.ts" ],
+            "axios-types": ["./node_modules/axios/index.d.ts" ]
+          }
         }
       }

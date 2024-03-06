@@ -1,6 +1,6 @@
-import { AxiosInstance } from "axios";
-import { IRetryConfig } from "./retry-config.interface";
-import { defaultAxiosConfig } from "./default-axios-config.constant";
+import { AxiosInstance } from "axios-types";
+import { IRetryConfig } from "./retry-config.interface.js";
+import { defaultAxiosConfig } from "./default-axios-config.constant.js";
 
 export async function retryAxiosCall<TData>(err: any, instance: AxiosInstance) {
         const { config } = err as { config: IRetryConfig<TData> };
