@@ -1,13 +1,12 @@
 {
     "name": "@onivoro/isomorphic-axios",
-    "version": "0.0.21",
+    "version": "0.0.22",
     "repository": {
-        "url": "https://github.com/onivoro/isomorphic-axios.git"
+        "url": "git+https://github.com/onivoro/isomorphic-axios.git"
     },
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
     "types": "dist/types/index.d.ts",
-    "type": "module",
     "files": [
         "dist/*"
     ],

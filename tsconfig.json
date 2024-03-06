@@ -13,9 +13,10 @@
           "declaration": true,
           "strict": false,
           "esModuleInterop": false,
+          "allowSyntheticDefaultImports": true,
+          "moduleResolution": "NodeNext",
+
           "paths": {
-            "axios": ["./node_modules/axios/index.js", "./node_modules/axios/index.d.ts" ],
-            "axios-types": ["./node_modules/axios/index.d.ts" ]
           }
         }
       }
