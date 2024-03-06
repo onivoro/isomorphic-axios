@@ -1,6 +1,6 @@
 {
     "name": "@onivoro/isomorphic-axios",
-    "version": "0.0.22",
+    "version": "0.0.23",
     "repository": {
         "url": "git+https://github.com/onivoro/isomorphic-axios.git"
     },
@@ -26,10 +26,11 @@
         }
     },
     "onx": {
-        "platform": "isomorphic"
+        "platform": "isomorphic",
+        "module": "commonjs"
     },
     "devDependencies": {
-        "@onivoro/cli": "*",
+        "@onivoro/cli": "^0.0.32",
         "@types/jest": "*",
         "typescript": "*"
     },
