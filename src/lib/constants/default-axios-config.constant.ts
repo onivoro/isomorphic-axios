@@ -1,4 +1,4 @@
-import { IRetryConfig } from "./retry-config.interface";
+import { IRetryConfig } from "../types/retry-config.interface";
 
 export const defaultAxiosConfig: IRetryConfig<any> = {
   retry: 3,

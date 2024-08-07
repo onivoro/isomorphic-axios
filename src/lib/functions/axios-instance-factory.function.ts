@@ -1,9 +1,9 @@
 
 import axios, { AxiosRequestConfig } from 'axios';
-import { defaultAxiosConfig } from './default-axios-config.constant';
-import { THeaderSetterMap } from './header-setting-map.type';
-import { TErrorHandlerMap } from './error-handler-map.type';
-import { TErrorHandler } from './error-handler.type';
+import { defaultAxiosConfig } from '../constants/default-axios-config.constant';
+import { THeaderSetterMap } from '../types/header-setting-map.type';
+import { TErrorHandlerMap } from '../types/error-handler-map.type';
+import { TErrorHandler } from '../types/error-handler.type';
 
 export function axiosInstanceFactory<TData>(params:
   {

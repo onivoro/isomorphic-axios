@@ -1,1 +1,1 @@
-export * from './lib/axios-instance-factory.function';
+export * from './lib/functions/axios-instance-factory.function';
