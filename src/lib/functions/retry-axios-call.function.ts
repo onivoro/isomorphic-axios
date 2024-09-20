@@ -17,7 +17,6 @@ export async function retryAxiosCall<TData>(err: any, instance: AxiosInstance) {
 
         await new Promise<void>((resolve) => {
           setTimeout(() => {
-            console.log("retrying the request", config.url);
             resolve();
           }, config.retryDelay || 1000)
         })

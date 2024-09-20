@@ -41,8 +41,6 @@ export function axiosInstanceFactory<TData>(params:
   instance.interceptors.response.use(
     (res) => res,
     async (err) => {
-      console.warn({ err, msg: 'axiosInstanceFactory error' });
-
       const status = err?.response.status || 0;
 
       const { config } = err;
@@ -69,7 +67,6 @@ export function axiosInstanceFactory<TData>(params:
 
       await new Promise<void>((resolve) => {
         setTimeout(() => {
-          console.log("axiosEmbeddedInstanceFactory is retrying the request", config.url);
           resolve();
         }, config.retryDelay || 1000)
       })

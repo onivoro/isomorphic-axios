@@ -35,8 +35,6 @@ export function createAxiosInstance(config: TApiConfig) {
     (err) => {
       const defaultError = {config: {}};
 
-      console.warn({ err, msg: 'axiosInstanceFactory error' });
-
       if (typeof onError === 'function') {
         onError(err?.response || defaultError);
       }
