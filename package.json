@@ -30,13 +30,13 @@
         "module": "commonjs"
     },
     "devDependencies": {
-        "@onivoro/cli": "^0.0.32",
+        "@onivoro/cli": "^22.0.3",
         "@types/jest": "*",
         "typescript": "*"
     },
     "engines": {
-        "node": "18.19.1",
-        "npm": "10.2.4"
+        "node": "22.10.0",
+        "npm": "10.9.0"
     },
     "dependencies": {
         "axios": "^1.7.7"
