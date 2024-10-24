@@ -1,6 +1,6 @@
 {
     "name": "@onivoro/isomorphic-axios",
-    "version": "0.0.26",
+    "version": "22.0.0",
     "repository": {
         "url": "git+https://github.com/onivoro/isomorphic-axios.git"
     },
